@@ -1,0 +1,17 @@
+.AppLink {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.AppLink:last-child {
+    margin-right: 0px;
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--inverted-primary-color);
+}
