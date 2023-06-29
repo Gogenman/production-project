@@ -15,6 +15,13 @@
     position: absolute;
     bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
+}
+
+.collapse .switchers {
+    justify-content: center;
+    flex-direction: column;
+    transition: all .2s linear;
 }
