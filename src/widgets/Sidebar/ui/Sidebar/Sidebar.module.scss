@@ -2,7 +2,6 @@
     height: var(--sidebar-height);
     width: var(--sidebar-width);
     background: var(--inverted-bg-color);
-
     position: relative;
     transition: width 0.3s;
 }
@@ -23,5 +22,13 @@
 .collapse .switchers {
     justify-content: center;
     flex-direction: column;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: var(--primary-color);
+    margin: 10px;
+    font-size: 30px;
 }

@@ -19,7 +19,7 @@ const Sidebar: FC<SidebarProps> = (props) => {
 
     return (
         <div className={classNames(style.Sidebar, { [style.collapse]: collapse }, [className])}>
-            <button type="button" onClick={onToggleHandler}>
+            <button className={style.btn} type="button" onClick={onToggleHandler}>
                 =
             </button>
 
