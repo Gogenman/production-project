@@ -1,7 +1,7 @@
-import { classNames } from 'shared/lib/classNames/classNames';
-import { AppLink, AppLinksTheme } from 'shared/ui/AppLink/AppLink';
-import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
-import style from './Navbar.module.scss';
+/* eslint-disable i18next/no-literal-string */
+import { classNames } from 'shared/lib/classNames/classNames'
+import { AppLink, AppLinksTheme } from 'shared/ui/AppLink/AppLink'
+import style from './Navbar.module.scss'
 
 interface NavbarProps {
     className?: string
@@ -28,4 +28,4 @@ export const Navbar = ({ className }: NavbarProps) => (
         </div>
 
     </div>
-);
+)
