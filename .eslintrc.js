@@ -24,7 +24,7 @@ module.exports = {
     ],
     rules: {
         semi: ['error', 'never'],
-        'linebreak-style': ['error', 'unix'],
+        'linebreak-style': 'off',
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         indent: [2, 4],
@@ -42,6 +42,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': ['error', { markupOnly: true }],
         'no-trailing-spaces': 'off',
+        'arrow-body-style': 'off',
     },
     globals: {
         __IS_DEV__: true,

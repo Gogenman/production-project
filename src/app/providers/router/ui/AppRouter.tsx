@@ -1,10 +1,10 @@
-import { Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { routerConfig } from 'shared/config/routeConfig/routeConfig';
-import Loader from 'shared/ui/Loader/Loader';
+import { Suspense } from 'react'
+import { Route, Routes } from 'react-router-dom'
+import { routerConfig } from 'shared/config/routeConfig/routeConfig'
+import { PageLoader } from 'widgets/PageLoader'
 
 const AppRouter = () => (
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<PageLoader />}>
         <Routes>
             {Object.values(routerConfig).map(({ path, element }) => (
                 <Route
@@ -19,6 +19,6 @@ const AppRouter = () => (
             ))}
         </Routes>
     </Suspense>
-);
+)
 
-export default AppRouter;
+export default AppRouter
