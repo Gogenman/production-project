@@ -17,7 +17,6 @@ export const App = () => {
                     <Sidebar />
                     <AppRouter />
                 </div>
-
             </Suspense>
         </div>
     )
