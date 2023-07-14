@@ -1,12 +1,12 @@
-import { useTranslation } from 'react-i18next';
-import style from './LangSwitcher.module.scss';
+import { useTranslation } from 'react-i18next'
+import style from './LangSwitcher.module.scss'
 
 const LangSwitcher = () => {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation()
 
     const toggle = () => {
-        i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
-    };
+        i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru')
+    }
 
     return (
         <div>
@@ -18,7 +18,7 @@ const LangSwitcher = () => {
                 {t('Перевод')}
             </button>
         </div>
-    );
-};
+    )
+}
 
-export default LangSwitcher;
+export default LangSwitcher

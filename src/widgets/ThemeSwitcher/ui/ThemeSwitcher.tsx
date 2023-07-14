@@ -4,7 +4,7 @@ import { FC } from 'react'
 import { classNames } from 'shared/lib/classNames/classNames'
 import LightIcon from 'shared/assets/icons/light.svg'
 import DarkIcon from 'shared/assets/icons/dark.svg'
-import Button, { ThemeButton } from 'shared/ui/Button/Button'
+import { Button, ThemeButton } from 'shared/ui/Button/Button'
 import style from './ThemeSwitcher.module.scss'
 
 interface ThemeSwitcherProps {
