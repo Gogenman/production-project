@@ -1,5 +1,8 @@
 .Button {
     cursor: pointer;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid var(--primary-color)
 }
 
 .clear {
@@ -8,4 +11,10 @@
     background: transparent;
     border: none;
     outline: none;
+}
+
+.outlined {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
 }
