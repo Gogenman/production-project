@@ -4,7 +4,7 @@ import style from './Button.module.scss'
 
 export enum ThemeButton {
     CLEAR = 'clear',
-    OUTLINE = 'outlined'
+    OUTLINE = 'outline'
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -22,7 +22,7 @@ export const Button: FC<ButtonProps> = (props) => {
     return (
         <button
             type="button"
-            className={classNames(style.Button, {}, [className, theme])}
+            className={classNames(style.Button, { [style[theme]]: true }, [className])}
             {...otherProps}
         >
             {children}
